@@ -23,7 +23,7 @@ app.get("/people", function (req, res) {
 const obj = {
 	key1: "this string",
 	name: "fredrickson",
-	ocupation: "post",
+	occupation: "post",
 };
 
 app.listen(port, function () {
