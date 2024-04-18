@@ -16,6 +16,8 @@ app.get("/api", function (req, res) {
 	});
 });
 
+console.log("Hello world!");
+
 app.get("/people", function (req, res) {
 	res.json(obj);
 });
