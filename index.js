@@ -24,7 +24,7 @@ app.get("/people", function (req, res) {
 
 const obj = {
 	key1: "this string",
-	name: "fredrickson",
+		name: "fredrickson",
 	occupation: "post",
 };
 

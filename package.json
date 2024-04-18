@@ -6,13 +6,21 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "npm run prepare"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "prettier --write . && git add -A ."
+    }
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
     "husky": "^9.0.11"
   }
 }
