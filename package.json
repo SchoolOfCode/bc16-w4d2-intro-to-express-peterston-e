@@ -7,12 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "prepare": "husky",
-    "test": "npm run prepare"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "prettier --write . && git add -A ."
-    }
+    "message": "echo Hello World!"
   },
   "keywords": [],
   "author": "",
